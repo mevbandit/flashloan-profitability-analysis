@@ -24,7 +24,6 @@ for (const filename of files) {
     }
   }
 }
-//console.log(gasperswap);
  //calculations from the resulting arrays after parsing.
   const sumgas = gas.reduce((a, b) => a + b, 0);
   const avggas = (sumgas / gas.length) || 0;
